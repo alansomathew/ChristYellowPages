@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "300258970398",
+    "firebase_url": "https://christ-yellowpages-default-rtdb.firebaseio.com",
+    "project_id": "christ-yellowpages",
+    "storage_bucket": "christ-yellowpages.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300258970398:android:e411ebc5230785854fd70f",
+        "android_client_info": {
+          "package_name": "com.example.christ_yellow_pages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300258970398-d9evd33to42pirjb7bvfr744bmf3kmc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4eb0eMqUu23LZFm5dm1ceRmyZZqWzl0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300258970398-d9evd33to42pirjb7bvfr744bmf3kmc4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "300258970398-ka9k50udo0a9lldjbckfl8le0r084lj7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.yellowPages"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
