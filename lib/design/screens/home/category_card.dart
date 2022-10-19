@@ -1,15 +1,17 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:christ_yellow_pages/design/configs/themes/ui_parameters.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../constants/image.dart';
+import '../../../database/controllers/category_contact/category_controller.dart';
 import '../../../database/models/category_model.dart';
 import '../../configs/themes/custom_text_style.dart';
+import '../../configs/themes/ui_parameters.dart';
 import '../../widgets/app_icon_text.dart';
 
-class CategoryCard extends StatelessWidget {
+class CategoryCard extends GetView<CategoryController> {
   const CategoryCard({Key? key, required this.model}) : super(key: key);
   final CategoryModel model;
   @override
@@ -22,7 +24,7 @@ class CategoryCard extends StatelessWidget {
       ),
       child: InkWell(
         onTap: (() {
-          print(model.title);
+        //  controller.navigateToContacts(category: model);
         }),
         child: Padding(
           padding: const EdgeInsets.only(

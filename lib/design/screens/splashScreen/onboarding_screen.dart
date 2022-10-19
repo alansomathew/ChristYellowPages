@@ -6,6 +6,7 @@ import '../../widgets/app_circle_button.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({Key? key}) : super(key: key);
+  static const String routeName = '/onboarding';
 
   @override
   State<OnBoardingScreen> createState() => _OnBoardingScreenState();

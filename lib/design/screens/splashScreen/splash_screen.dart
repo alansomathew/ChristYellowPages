@@ -9,6 +9,7 @@ import './onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
+  static const String routeName = '/';
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();

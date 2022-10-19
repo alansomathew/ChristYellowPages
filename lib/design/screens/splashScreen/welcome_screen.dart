@@ -10,6 +10,7 @@ import '../../widgets/common/main_button.dart';
 
 class WelcomeScreen extends GetView<AuthController> {
   const WelcomeScreen({Key? key}) : super(key: key);
+  static const String routeName = '/welcome';
 
   @override
   Widget build(BuildContext context) {

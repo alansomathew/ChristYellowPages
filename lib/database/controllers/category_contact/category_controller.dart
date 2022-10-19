@@ -40,4 +40,18 @@ class CategoryController extends GetxController {
       print(e);
     }
   }
+  void navigateToContacts({required CategoryModel category, bool tryAgain=false}){
+    AuthController _authController=Get.find();
+    if(_authController.isLoggedIn()){
+      if(tryAgain){
+Get.back();
+// Get.offNamed('/home');
+      }else{
+        _authController.navigateToWelcome();
+      }
+    }
+    else{
+      _authController.navigateToIndroduction();
+    }
+  }
 }

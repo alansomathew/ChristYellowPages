@@ -8,11 +8,11 @@ import '../design/screens/splashScreen/welcome_screen.dart';
 
 class AppRoutes {
   static List<GetPage> routes() => [
-        GetPage(name: "/", page: () => SplashScreen()),
-        GetPage(name: "/onboarding", page: () => OnBoardingScreen()),
-        GetPage(name: "/welcome", page: () => WelcomeScreen()),
+        GetPage(name: SplashScreen.routeName, page: () => SplashScreen()),
+        GetPage(name: OnBoardingScreen.routeName, page: () => OnBoardingScreen()),
+        GetPage(name: WelcomeScreen.routeName, page: () => WelcomeScreen()),
         GetPage(
-          name: "/home",
+          name: HomeScreen.routeName,
           page: () => HomeScreen(),
           binding: BindingsBuilder(() {
             Get.put(CategoryController());
